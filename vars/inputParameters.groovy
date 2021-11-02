@@ -3,7 +3,7 @@ def call() {
     parameters([
       string(
          name: 'environment', 
-         defaultValue: 'terraform', 
+         defaultValue: 'dev', 
          description: 'Workspace/environment file to use for deployment'
       ),
       booleanParam(
